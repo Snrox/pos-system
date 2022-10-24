@@ -30,3 +30,6 @@ Route::middleware([
 
 
 
+
+
+Route::resource('product', App\Http\Controllers\ProductController::class);
